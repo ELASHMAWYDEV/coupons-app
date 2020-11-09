@@ -1,0 +1,40 @@
+{
+  "expo": {
+    "name": "كوبونات خصم",
+    "slug": "coupons-app",
+    "version": "1.0",
+    "orientation": "portrait",
+    "icon": "./app/assets/img/icon.png",
+    "splash": {
+      "image": "./app/assets/img/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.techview.coupons.app",
+      "buildNumber": "1.0",
+      "config": {
+        "googleMobileAdsAppId": "ca-app-pub-4168953325851257~4163010670"
+      }
+    },
+    "web": {
+      "favicon": "./app/assets/img/favicon.png"
+    },
+    "description": "",
+    "android": {
+      "package": "com.techview.coupons.app",
+      "versionCode": 1,
+      "permissions": [],
+      "config": {
+        "googleMobileAdsAppId": "ca-app-pub-4168953325851257~6321775310"
+      }
+    }
+  }
+}
